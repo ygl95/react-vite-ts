@@ -1,0 +1,12 @@
+PROPS
+1) Input/Arguments passed to a component
+2) Similar to function Arguments
+3) Immutable or unchangeable
+4) Cause a re-render
+
+
+STATE
+1) Data managed by a component internally that can change overtime
+2) Similar to local variables
+3) Mutable or changeable
+4) Cause a re-render
