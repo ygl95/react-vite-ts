@@ -1,0 +1,30 @@
+{
+  "moduletitle": "Featured",
+  "modulesubtitle": "This section is about the featured topics of the owner",
+  "featurette": [
+    {
+      "title": "First Featured Topic. <span class=\"text-muted\">It'll blow your mind.</span>",
+      "description": "Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.",
+      "imagesrc": {
+        "source": "https://images.unsplash.com/photo-1602655432345-59fe53a201e5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDd8fDUwMCUyMHBpeGVsfGVufDB8fDB8fHww",
+        "alttext": "featured image 1"
+      }
+    },
+    {
+      "title": "Second Featured Topic. <span class=\"text-muted\">It'll blow your mind.</span>",
+      "description": "Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.",
+      "imagesrc": {
+        "source": "https://images.unsplash.com/photo-1531349116577-43fa5e0e694f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fDUwMCUyMHBpeGVsfGVufDB8fDB8fHww",
+        "alttext": "featured image 2"
+      }
+    },
+    {
+      "title": "Third Featured Topic. <span class=\"text-muted\">It'll blow your mind.</span>",
+      "description": "Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.",
+      "imagesrc": {
+        "source": "https://images.unsplash.com/photo-1654444794814-863e35ff2cea?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTN8fDUwMCUyMHBpeGVsfGVufDB8fDB8fHww",
+        "alttext": "featured image 3"
+      }
+    }
+  ]
+}

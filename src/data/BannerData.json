@@ -1,0 +1,10 @@
+{
+  "banner": {
+    "title": "My Personal Blog",
+    "sub-title": "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
+    "linkurl": {
+      "linktext": "Read More",
+      "link": "#aboutme"
+    }
+  }
+}

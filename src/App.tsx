@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Featurette from "./components/Featurette";
 import About from "./components/About";
 import ContactUs from "./components/Contact";
+import featuretteData from "./data/FeaturetteData.json";
 
 function App() {
   //let items = ["New York", "Japan", "Korea", "New Zealand", "Canada"];
@@ -26,14 +27,17 @@ function App() {
             className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center"
             id="featuredtopics"
           >
-            <h1 className="display-4">Featured</h1>
-            <p className="lead">
-              This section is about the featured topics of the owner
-            </p>
+            <h1 className="display-4">{featuretteData.moduletitle}</h1>
+            <p className="lead">{featuretteData.modulesubtitle}</p>
           </div>
-          <Featurette />
-          <Featurette />
-          <Featurette />
+          {featuretteData.featurette.map((feature) => (
+            <Featurette
+              altText={feature.imagesrc.alttext}
+              description={feature.description}
+              imageUrl={feature.imagesrc.source}
+              title={feature.title}
+            ></Featurette>
+          ))}
           <hr className="featurette-divider"></hr>
         </div>
         <About />
